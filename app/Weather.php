@@ -28,7 +28,7 @@ class Weather
 
     public function getTemperature(): float
     {
-        return $this->temperature;
+        return round($this->temperature, 1);
     }
 
     public function getHumidity(): float

@@ -46,8 +46,10 @@ $weatherForecast = $apiConnection->getWeatherForecast($city);
         <label for="city">
             City:
         </label>
-        <input id="city" type="text" name="city" placeholder="City name" size="30" required>
-        <input type="submit" value="Get weather">
+        <input id="city" type="text" name="city" placeholder="City name" style="border-radius: 20px; height: 20px"
+               width="20px" " required>
+        <input type="submit" value="Get weather"
+               style="background: white; padding: 5px; border: none; border-radius: 20px">
     </form>
 </div>
 
@@ -73,7 +75,7 @@ $weatherForecast = $apiConnection->getWeatherForecast($city);
         <h3>Weather for next 5 days: </h3>
     </div>
     <div>
-        <table border="1" cellpadding="10">
+        <table border="1" cellpadding="10" style="text-align: center">
             <th>
                 Day
 
